@@ -2,8 +2,6 @@ package com.psh.no6;
 
 import java.io.*;
 
-import static java.lang.Integer.parseInt;
-
 public class Main {
     public static int[][] APT = new int[15][15];
 
@@ -13,7 +11,7 @@ public class Main {
 
         make_APT();	// 아파트 만들기 
         
-        int T = parseInt(br.readLine());
+        int T = Integer.parseInt(br.readLine());
 
         for (int i = 0; i < T; i++) {
             int k = Integer.parseInt(br.readLine());

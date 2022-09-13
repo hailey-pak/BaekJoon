@@ -2,6 +2,9 @@ package com.psh.no6;
 
 import java.io.*;
 
+/*
+*       시간초과
+* */
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

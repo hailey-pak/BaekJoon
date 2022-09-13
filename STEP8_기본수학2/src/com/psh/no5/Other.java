@@ -35,7 +35,7 @@ public class Other {
     *   소수인 index = false
     *   입력된 N의 범위까지 소수판별 배열 반환
     * */
-    public static boolean[] makePrime(int N) {
+    private static boolean[] makePrime(int N) {
         boolean[] prime = new boolean[N+1]; //0 ~ N
 
         prime[0] = prime[1] = true;

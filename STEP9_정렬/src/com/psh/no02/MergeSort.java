@@ -88,5 +88,8 @@ public class MergeSort {
          * 정렬된 새 배열을 기존의 배열에 복사하여 옮겨준다.
          */
         if (right + 1 - left >= 0) System.arraycopy(sorted, left, a, left, right + 1 - left);
+//        for (int i = left; i <= right; i++) {
+//            a[i] = sorted[i];
+//        }
     }
 }

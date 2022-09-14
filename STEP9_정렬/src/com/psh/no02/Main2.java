@@ -13,7 +13,8 @@ public class Main2 {
             arr[i] = Integer.parseInt(br.readLine());
         }
 
-        MergeSort.sort(arr);    //병합정렬
+//        MergeSort.sort(arr);    //병합정렬
+        HeapSort2.sort(arr);     //힙정렬
 
         for (int i : arr) {
             bw.write(i + "\n");

@@ -7,12 +7,12 @@ public class MergeSort {
      * 병합 정렬 (합병 정렬)
      * 1. 주어진 리스트를 절반으로 분할하여 부분리스트로 나눈다. (Divide : 분할)
      * 2. 해당 부분리스트의 길이가 1이 아니라면 1번 과정을 되풀이한다.
-     * 3. 인접한 부분리스트끼리 정렬하여 합친다. (Conqure : 정복
+     * 3. 인접한 부분리스트끼리 정렬하여 합친다.
      */
     public static void sort(int[] a) {
         sorted = new int[a.length];
         //   sort_top(a, 0, a.length-1);
-        sort_bottom(a, 0, a.length - 1);
+        sort_bottom(a,  a.length - 1);
         sorted = null;
     }
 
@@ -31,7 +31,7 @@ public class MergeSort {
     }
 
     // Bottom-Up 방식 구현
-    private static void sort_bottom(int[] a, int left, int right) {
+    private static void sort_bottom(int[] a, int right) {
 
         //1 - 2 - 4 - 8 - ... 식으로 1부터 서브리스트를 나누는 기준을 두 배씩 늘린다.
         for (int size = 1; size <= right; size += size) {
@@ -46,10 +46,9 @@ public class MergeSort {
              * 병합되도록 해야한다.
              */
             for (int l = 0; l <= right - size; l += (2 * size)) {
-                int low = l;
                 int mid = l + size - 1;
                 int high = Math.min(l + (2 * size) - 1, right);
-                merge(a, low, mid, high);        // 병합작업
+                merge(a, l, mid, high);        // 병합작업
             }
         }
     }
@@ -88,8 +87,6 @@ public class MergeSort {
         /*
          * 정렬된 새 배열을 기존의 배열에 복사하여 옮겨준다.
          */
-        for (int i = left; i <= right; i++) {
-            a[i] = sorted[i];
-        }
+        if (right + 1 - left >= 0) System.arraycopy(sorted, left, a, left, right + 1 - left);
     }
 }

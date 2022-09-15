@@ -14,7 +14,9 @@ public class Main2 {
         }
 
 //        MergeSort.sort(arr);    //병합정렬
-        HeapSort2.sort(arr);     //힙정렬
+//        HeapSort2.sort(arr);     //힙정렬
+//        ShellSort.sort(arr);    //셸정렬
+        ShellSort.shell_sort(arr);
 
         for (int i : arr) {
             bw.write(i + "\n");

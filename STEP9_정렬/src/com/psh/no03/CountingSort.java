@@ -19,21 +19,20 @@ public class CountingSort {
         int max = 0;
 
         for (int i = 0; i < n; i++) {
-            int k = Integer.parseInt(br.readLine());
-            arr[i] = k;
-            max = Math.max(max, k);
+            arr[i] = Integer.parseInt(br.readLine());
+            max = Math.max(max, arr[i]);
         }
 
         int[] sorted = new int[n];
         int[] counting = new int[max+1];
 
         // array 의 value 값을 index 로 하는 counting 배열 값 1 증가
-        for (int i = 0; i < n; i++) {
-            counting[arr[i]]++;
+        for (int j : arr) {
+            counting[j]++;
         }
 
         // 누적 합 해주기
-        for (int i = 1; i < max+1; i++) {
+        for (int i = 1; i < counting.length; i++) {
             counting[i] += counting[i-1];
         }
 
@@ -41,7 +40,7 @@ public class CountingSort {
          *  i 번쨰 원소를 인덱스로 하는 counting 배열을 1 감소시킨 뒤
          *  counting 배열의 값을 인덱스로 하여 result에 value 값을 저장한다.
          */
-        for (int i = n-1; i >= 0; i--) {
+        for (int i = arr.length - 1; i >= 0; i--) {
             int val = arr[i];
             counting[val]--;
             sorted[counting[val]] = val;

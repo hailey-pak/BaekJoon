@@ -9,29 +9,29 @@ public class MergeSort {
      * 2. 해당 부분리스트의 길이가 1이 아니라면 1번 과정을 되풀이한다.
      * 3. 인접한 부분리스트끼리 정렬하여 합친다.
      */
-    public static void sort(int[] a) {
-        sorted = new int[a.length];
+    public static void sort(int[] arr) {
+        sorted = new int[arr.length];
         //   sort_top(a, 0, a.length-1);
-        sort_bottom(a,  a.length - 1);
+        sort_bottom(arr,  arr.length - 1);
         sorted = null;
     }
 
     // Top-Down 방식 구현
-    private static void sort_top(int[] a, int left, int right) {
+    private static void sort_top(int[] arr, int left, int right) {
 
         //부분리스트가 1개의 원소만 갖고있는 경우 더이상 쪼갤 수 없으므로 return한다.
         if (left == right) return;
 
         int mid = (left + right) / 2;   //절반 위치
 
-        sort_top(a, left, mid);           //절반 중 왼쪽 부분리스트(left ~ mid)
-        sort_top(a, mid + 1, right);    //절반 중 오른쪽 부분리스트(mid+1 ~ right)
+        sort_top(arr, left, mid);           //절반 중 왼쪽 부분리스트(left ~ mid)
+        sort_top(arr, mid + 1, right);    //절반 중 오른쪽 부분리스트(mid+1 ~ right)
 
-        merge(a, left, mid, right);     //병합작업
+        merge(arr, left, mid, right);     //병합작업
     }
 
     // Bottom-Up 방식 구현
-    private static void sort_bottom(int[] a, int right) {
+    private static void sort_bottom(int[] arr, int right) {
 
         //1 - 2 - 4 - 8 - ... 식으로 1부터 서브리스트를 나누는 기준을 두 배씩 늘린다.
         for (int size = 1; size <= right; size += size) {
@@ -48,7 +48,7 @@ public class MergeSort {
             for (int l = 0; l <= right - size; l += (2 * size)) {
                 int mid = l + size - 1;
                 int high = Math.min(l + (2 * size) - 1, right);
-                merge(a, l, mid, high);        // 병합작업
+                merge(arr, l, mid, high);        // 병합작업
             }
         }
     }
@@ -56,12 +56,12 @@ public class MergeSort {
     /**
      * 합칠 부분리스트는 a배열의 left ~ right 까지이다.
      *
-     * @param a     정렬할 배열
+     * @param arr     정렬할 배열
      * @param left  배열의 시작점
      * @param mid   배열의 중간점
      * @param right 배열의 끝점
      */
-    private static void merge(int[] a, int left, int mid, int right) {
+    private static void merge(int[] arr, int left, int mid, int right) {
         int l = left;        // 왼쪽 부분리스트 시작점
         int r = mid + 1;    // 오른쪽 부분리스트의 시작점
         int idx = left;        // 채워넣을 배열의 인덱스
@@ -73,21 +73,21 @@ public class MergeSort {
              *   1. 오른쪽 분할의 원소를 이미 다 가져온 경우 (r > end)
              *   2. 왼쪽 분할에서 가져오지 않은 원소가 있고, 왼쪽 분할의 첫 원소 값이 오른쪽 분할의 첫 원소 값보다 작은 경우
              */
-            if (r > right || (l <= mid && a[l] < a[r])) {
-                sorted[idx++] = a[l++];
+            if (r > right || (l <= mid && arr[l] < arr[r])) {
+                sorted[idx++] = arr[l++];
 
             /*
              *  그 이외의 경우에는 오른쪽 분할에서 원소를 가져옴
              */
             } else {
-                sorted[idx++] = a[r++];
+                sorted[idx++] = arr[r++];
             }
         }
 
         /*
          * 정렬된 새 배열을 기존의 배열에 복사하여 옮겨준다.
          */
-        if (right + 1 - left >= 0) System.arraycopy(sorted, left, a, left, right + 1 - left);
+        if (right + 1 - left >= 0) System.arraycopy(sorted, left, arr, left, right + 1 - left);
 //        for (int i = left; i <= right; i++) {
 //            a[i] = sorted[i];
 //        }

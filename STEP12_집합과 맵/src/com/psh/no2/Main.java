@@ -23,5 +23,6 @@ public class Main {
             if (set.contains(br.readLine())) cnt++;
         }
         System.out.print(cnt);
+        br.close();
     }
 }

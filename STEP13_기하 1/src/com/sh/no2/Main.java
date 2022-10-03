@@ -27,5 +27,6 @@ public class Main {
         if (y[0] == y[2]) sb.append(y[1]);
         if (y[1] == y[2]) sb.append(y[0]);
         System.out.print(sb);
+        br.close();
     }
 }

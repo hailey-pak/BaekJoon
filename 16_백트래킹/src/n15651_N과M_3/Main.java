@@ -1,4 +1,4 @@
-package n15650_N과M_3;
+package n15651_N과M_3;
 
 import java.io.BufferedReader;
 import java.io.IOException;

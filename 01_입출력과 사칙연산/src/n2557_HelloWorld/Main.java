@@ -1,4 +1,4 @@
-package com.psh.no01;
+package n2557_HelloWorld;
 
 public class Main {
 	public static void main(String[] args) {

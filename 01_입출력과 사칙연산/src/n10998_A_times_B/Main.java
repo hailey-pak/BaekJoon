@@ -1,4 +1,4 @@
-package com.psh.no05;
+package n10998_A_times_B;
 
 import java.util.Scanner;
 

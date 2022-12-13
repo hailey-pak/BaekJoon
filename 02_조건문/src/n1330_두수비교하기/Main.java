@@ -1,4 +1,4 @@
-package com.psh.no1;
+package n1330_두수비교하기;
 
 import java.io.BufferedReader;
 import java.io.IOException;

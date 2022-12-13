@@ -1,11 +1,7 @@
-package com.psh.no2;
+package n4673_셀프넘버;
 
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
-
-public class Main {
-    public static void main(String[] args) throws IOException {
+public class Main2 {
+    public static void main(String[] args) {
         boolean[] chk = new boolean[10001];
 
         for (int i = 1; i < 100001; i++) {
@@ -13,13 +9,14 @@ public class Main {
             if (n < 10001) chk[n] = true;       //해당 자리수를 true값으로 저장
         }
 
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        StringBuilder sb = new StringBuilder();
 
         for (int i = 1; i < 10001; i++) {
-            if (!chk[i+1]) bw.write(i+1+"\n");
+            if (!chk[i]) {
+                sb.append(i).append('\n');
+            }
         }
-        bw.flush();
-        bw.close();
+        System.out.println(sb);
     }
 
     public static int d(int n) {

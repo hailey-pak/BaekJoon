@@ -1,4 +1,4 @@
-package com.psh.no07;
+package n10869_사칙연산;
 
 import java.util.Scanner;
 

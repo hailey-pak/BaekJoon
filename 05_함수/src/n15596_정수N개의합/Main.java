@@ -1,4 +1,4 @@
-package no1;
+package n15596_정수N개의합;
 
 import java.io.BufferedReader;
 import java.io.IOException;

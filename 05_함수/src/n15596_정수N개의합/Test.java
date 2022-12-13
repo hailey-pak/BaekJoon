@@ -1,4 +1,4 @@
-package no1;
+package n15596_정수N개의합;
 
 public class Test {
     long sum(int[] a) {

@@ -1,4 +1,4 @@
-package com.psh.no4;
+package n14681_사분면고르기;
 
 import java.io.BufferedReader;
 import java.io.IOException;

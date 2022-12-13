@@ -1,4 +1,4 @@
-package com.psh.no1;
+package n10818_최소최대;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.psh.no1;
+package n10818_최소최대;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.util.Arrays;
 /*
 *   Arrays.stream() 의 max() min()사용
 * */
-public class Other {
+public class Main2 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         br.readLine();

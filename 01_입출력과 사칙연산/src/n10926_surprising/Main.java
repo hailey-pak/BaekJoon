@@ -1,4 +1,4 @@
-package com.psh.no08;
+package n10926_surprising;
 
 import java.util.Scanner;
 

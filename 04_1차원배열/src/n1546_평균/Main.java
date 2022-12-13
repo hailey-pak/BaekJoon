@@ -1,4 +1,4 @@
-package com.psh.no4;
+package n1546_평균;
 
 import java.io.BufferedReader;
 import java.io.IOException;

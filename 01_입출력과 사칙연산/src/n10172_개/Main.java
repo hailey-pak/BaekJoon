@@ -1,4 +1,4 @@
-package com.psh.no14;
+package n10172_개;
 
 public class Main {
 	public static void main(String[] args) {

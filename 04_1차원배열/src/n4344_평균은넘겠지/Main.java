@@ -1,12 +1,8 @@
-package com.psh.no6;
+package n4344_평균은넘겠지;
 
 import java.io.*;
-import java.util.Arrays;
 
-/*
-*      배열 형변환 --> Arrays.stream().mapToInt(Integer::parseInt)
-* */
-public class Other {
+public class Main {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -15,12 +11,11 @@ public class Other {
         int c = Integer.parseInt(br.readLine());
         for (int i = 0; i < c; i++) {
             String[] str = br.readLine().split(" ");
-            int[] in = Arrays.stream(str)
-                    .mapToInt(Integer::parseInt)
-                    .toArray();
+            int[] in = new int[str.length];
             int sum = 0;
-            for (int j = 1; j < in.length ; j++) {
-                sum+= in[j];
+            for (int j = 0; j <in.length ; j++) {
+                in[j] = Integer.parseInt(str[j]);
+                if (j!=0) sum+= in[j];
             }
             double avg = (double)sum/in[0];
 

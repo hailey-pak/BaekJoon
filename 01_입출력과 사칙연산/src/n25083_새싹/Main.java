@@ -1,4 +1,4 @@
-package com.psh.no15;
+package n25083_새싹;
 
 public class Main {
 	public static void main(String[] args) {

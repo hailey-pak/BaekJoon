@@ -1,4 +1,4 @@
-package com.psh.no06;
+package n1008_A_divide_B;
 
 import java.io.IOException;
 

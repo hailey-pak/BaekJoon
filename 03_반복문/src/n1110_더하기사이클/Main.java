@@ -1,4 +1,4 @@
-package com.psh.no13;
+package n1110_더하기사이클;
 
 import java.util.Scanner;
 
@@ -8,12 +8,11 @@ public class Main {
         int n = sc.nextInt();
         int x = n, cnt=0;
 
-        while (true) {
-            int sum = x/10 + x%10;
-            x = x%10*10 + sum%10;
+        do {
+            int sum = x / 10 + x % 10;
+            x = x % 10 * 10 + sum % 10;
             cnt++;
-            if (x==n)  break;
-        }
+        } while (x != n);
         System.out.print(cnt);
     }
 }

@@ -1,4 +1,4 @@
-package com.psh.no12;
+package n2588_곱셈;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package no3;
+package n3052_나머지;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,22 +1,23 @@
-package no3;
+package n3052_나머지;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.HashSet;
 
-public class Main {
+/*
+ *   HashSet 활용 - HashSet은 중복된 값을 저장하지 않음.
+ * */
+public class Main3 {
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        HashSet<Integer> set = new HashSet<>();
 
-        boolean[] mods = new boolean[42];
         for (int i = 0; i < 10; i++) {
-            int k = Integer.parseInt(br.readLine())%42;
-            mods[k] = true;
+            set.add(Integer.parseInt(br.readLine())%42);
         }
-        int n=0;
-        for (boolean m : mods) {
-            if (m) n++;
-        }
-        System.out.print(n);
+        System.out.print(set.size());
     }
 }
+

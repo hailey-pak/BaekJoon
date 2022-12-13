@@ -1,4 +1,4 @@
-package com.psh.no1;
+package no1;
 
 public class Test {
     long sum(int[] a) {

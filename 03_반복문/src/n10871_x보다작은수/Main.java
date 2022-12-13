@@ -1,4 +1,4 @@
-package com.psh.no10;
+package n10871_x보다작은수;
 
 import java.io.*;
 

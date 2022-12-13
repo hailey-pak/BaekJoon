@@ -1,4 +1,4 @@
-package n11021_A_plus_B_minus_7;
+package n11021_A_plus_B_7;
 
 import java.io.*;
 

@@ -1,4 +1,4 @@
-package com.psh.no2;
+package n2562_최댓값;
 
 import java.io.*;
 

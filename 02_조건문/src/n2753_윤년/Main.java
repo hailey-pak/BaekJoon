@@ -1,4 +1,4 @@
-package com.psh.no3;
+package n2753_윤년;
 
 import java.util.Scanner;
 

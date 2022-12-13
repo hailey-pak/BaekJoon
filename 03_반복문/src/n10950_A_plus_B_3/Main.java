@@ -1,4 +1,4 @@
-package n10950_A_plus_B_minus_3;
+package n10950_A_plus_B_3;
 
 import java.io.BufferedReader;
 import java.io.IOException;

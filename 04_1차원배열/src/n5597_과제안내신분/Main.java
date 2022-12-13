@@ -1,4 +1,4 @@
-package com.psh.no8;
+package n5597_과제안내신분;
 
 import java.io.BufferedReader;
 import java.io.IOException;

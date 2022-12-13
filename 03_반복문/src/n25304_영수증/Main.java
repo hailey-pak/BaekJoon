@@ -1,4 +1,4 @@
-package com.psh.no04;
+package n25304_영수증;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.psh.no11;
+package n10430_나머지;
 
 import java.io.BufferedReader;
 import java.io.IOException;

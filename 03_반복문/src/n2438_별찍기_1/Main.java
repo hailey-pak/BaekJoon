@@ -1,4 +1,4 @@
-package com.psh.no08;
+package n2438_별찍기_1;
 
 import java.io.*;
 

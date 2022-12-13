@@ -1,4 +1,4 @@
-package com.psh.no09;
+package n18108_1998년생인내가태국에서는2541년생;
 
 import java.util.Scanner;
 

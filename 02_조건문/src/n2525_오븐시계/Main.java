@@ -1,4 +1,4 @@
-package com.psh.no6;
+package n2525_오븐시계;
 
 import java.io.BufferedReader;
 import java.io.IOException;

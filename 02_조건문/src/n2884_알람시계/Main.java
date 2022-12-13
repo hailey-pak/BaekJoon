@@ -1,4 +1,4 @@
-package com.psh.no5;
+package n2884_알람시계;
 
 import java.io.BufferedReader;
 import java.io.IOException;

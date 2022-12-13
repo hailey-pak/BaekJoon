@@ -1,4 +1,4 @@
-package no2;
+package n9498_시험성적;
 
 import java.io.BufferedReader;
 import java.io.IOException;

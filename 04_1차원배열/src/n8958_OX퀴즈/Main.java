@@ -1,4 +1,4 @@
-package com.psh.no5;
+package n8958_OX퀴즈;
 
 import java.io.*;
 
@@ -12,10 +12,10 @@ public class Main {
             char[] c = br.readLine().toCharArray();
             int sum=0, tmp=0;
 
-            for (int j = 0; j < c.length; j++) {
-                if (c[j]=='O') {
+            for (char value : c) {
+                if (value == 'O') {
                     tmp++;
-                    sum+= tmp;
+                    sum += tmp;
                 } else {
                     tmp = 0;
                 }

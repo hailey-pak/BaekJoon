@@ -1,4 +1,4 @@
-package com.psh.no09;
+package n2439_별찍기_2;
 
 import java.io.*;
 

@@ -1,4 +1,4 @@
-package com.psh.no10;
+package n3003_킹퀸룩비숍나이트폰;
 
 import java.util.Scanner;
 
@@ -7,9 +7,9 @@ public class Main {
 		
 		int[] origin = {1, 1, 2, 2, 2, 8};
 		Scanner sc = new Scanner(System.in);
-		
-		for (int i = 0; i < origin.length; i++) {
-			System.out.print(origin[i] - sc.nextInt() + " ");
+
+		for (int j : origin) {
+			System.out.print(j - sc.nextInt() + " ");
 		}
 		sc.close();
 	}

@@ -1,4 +1,4 @@
-package com.psh.no11;
+package n10952_A_plus_B_5;
 
 import java.io.*;
 

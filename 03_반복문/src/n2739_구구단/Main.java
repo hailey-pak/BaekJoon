@@ -1,4 +1,4 @@
-package com.psh.no01;
+package n2739_구구단;
 
 import java.util.Scanner;
 

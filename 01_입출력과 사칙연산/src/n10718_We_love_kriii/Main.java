@@ -1,4 +1,4 @@
-package com.psh.no02;
+package n10718_We_love_kriii;
 
 public class Main {
 	public static void main(String[] args) {

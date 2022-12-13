@@ -1,4 +1,4 @@
-package com.psh.no05;
+package n15552_빠른A_plus_B;
 
 import java.io.*;
 

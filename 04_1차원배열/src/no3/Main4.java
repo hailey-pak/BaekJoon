@@ -1,4 +1,4 @@
-package com.psh.no3;
+package no3;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.util.Arrays;
 /*
  *   Stream / distinct()  --- Stream의 distinct()를 사용해서 배열의 중복을 제거할 수 있다.
  * */
-public class Other2 {
+public class Main4 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

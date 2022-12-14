@@ -1,4 +1,4 @@
-package com.psh.no1;
+package n1978_소수찾기;
 
 import java.io.BufferedReader;
 import java.io.IOException;

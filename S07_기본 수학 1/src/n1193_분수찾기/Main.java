@@ -1,4 +1,4 @@
-package com.psh.no3;
+package n1193_분수찾기;
 
 import java.util.Scanner;
 

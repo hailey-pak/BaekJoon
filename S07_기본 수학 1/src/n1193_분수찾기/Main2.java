@@ -1,6 +1,6 @@
-package com.psh.no3;
+package n1193_분수찾기;
 
-public class Other {
+public class Main2 {
     public static void main(String[] args) {
         int x = new java.util.Scanner(System.in).nextInt();
 

@@ -1,4 +1,4 @@
-package com.psh.no06;
+package n1152_단어의개수;
 
 import java.io.BufferedReader;
 import java.io.IOException;

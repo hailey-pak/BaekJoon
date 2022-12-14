@@ -1,4 +1,4 @@
-package com.psh.no1;
+package n2738_행렬덧셈;
 
 import java.io.*;
 import java.util.StringTokenizer;

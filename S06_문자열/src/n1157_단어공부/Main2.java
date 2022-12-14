@@ -1,9 +1,9 @@
-package com.psh.no05;
+package n1157_단어공부;
 
 /*
 *   이 코드가 훨 씬 빠르고 메모리도 적게 씀!!!
 * */
-public class Other {
+public class Main2 {
     public static void main(String[] args) throws Exception {
         int[] a = new int[26];
         int c, max = 0, ch = -2;

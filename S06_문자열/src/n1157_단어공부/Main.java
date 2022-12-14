@@ -1,4 +1,4 @@
-package com.psh.no05;
+package n1157_단어공부;
 
 import java.io.BufferedReader;
 import java.io.IOException;

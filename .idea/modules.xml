@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/05_2차원배열/05_2차원배열.iml" filepath="$PROJECT_DIR$/05_2차원배열/05_2차원배열.iml" />
-      <module fileurl="file://$PROJECT_DIR$/09_기본수학 2/09_기본수학 2.iml" filepath="$PROJECT_DIR$/09_기본수학 2/09_기본수학 2.iml" />
       <module fileurl="file://$PROJECT_DIR$/10_정렬/10_정렬.iml" filepath="$PROJECT_DIR$/10_정렬/10_정렬.iml" />
       <module fileurl="file://$PROJECT_DIR$/11_재귀/11_재귀.iml" filepath="$PROJECT_DIR$/11_재귀/11_재귀.iml" />
       <module fileurl="file://$PROJECT_DIR$/12_브루트 포스/12_브루트 포스.iml" filepath="$PROJECT_DIR$/12_브루트 포스/12_브루트 포스.iml" />
@@ -19,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/S05_함수/S05_함수.iml" filepath="$PROJECT_DIR$/S05_함수/S05_함수.iml" />
       <module fileurl="file://$PROJECT_DIR$/S06_문자열/S06_문자열.iml" filepath="$PROJECT_DIR$/S06_문자열/S06_문자열.iml" />
       <module fileurl="file://$PROJECT_DIR$/S07_기본 수학 1/S07_기본 수학 1.iml" filepath="$PROJECT_DIR$/S07_기본 수학 1/S07_기본 수학 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S08_기본 수학 2/S08_기본 수학 2.iml" filepath="$PROJECT_DIR$/S08_기본 수학 2/S08_기본 수학 2.iml" />
       <module fileurl="file://$PROJECT_DIR$/S17_동적 계획법 1/S17_동적 계획법 1.iml" filepath="$PROJECT_DIR$/S17_동적 계획법 1/S17_동적 계획법 1.iml" />
     </modules>
   </component>

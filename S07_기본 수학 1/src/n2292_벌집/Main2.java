@@ -1,8 +1,8 @@
-package com.psh.no2;
+package n2292_벌집;
 
 import java.util.Scanner;
 
-public class Other {
+public class Main2 {
     public static void main(String[] args) {
         int a = new Scanner(System.in).nextInt();
         int b = 1;

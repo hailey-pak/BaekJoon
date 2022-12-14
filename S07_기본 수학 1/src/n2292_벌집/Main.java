@@ -1,4 +1,4 @@
-package com.psh.no2;
+package n2292_벌집;
 
 import java.util.Scanner;
 

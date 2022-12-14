@@ -1,4 +1,4 @@
-package com.psh.no6;
+package n2775_부녀회장이될테야;
 
 import java.io.*;
 

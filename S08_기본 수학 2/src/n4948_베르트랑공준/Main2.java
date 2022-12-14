@@ -1,4 +1,4 @@
-package com.psh.no5;
+package n4948_베르트랑공준;
 
 import java.io.*;
 
@@ -7,7 +7,7 @@ import java.io.*;
  *   k=2부터 N의 제곱근 이하까지 반복하여 자연수들 중 k를 제외한 k의 배수들을 제외시킨다.
  *   주어진 범위 안의 모든 수를 제곱근까지 반복 안해도 되니까 시간이 더 적게 걸림!
  * */
-public class Other {
+public class Main2 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -37,11 +37,9 @@ public class Other {
     * */
     private static boolean[] makePrime(int N) {
         boolean[] prime = new boolean[N+1]; //0 ~ N
-
         prime[0] = prime[1] = true;
 
         for (int i = 2; i <= Math.sqrt(N) ; i++) {
-            
             //이미 체크된 배열이면 다음 반복문으로 skip
             if (prime[i]) continue;
 

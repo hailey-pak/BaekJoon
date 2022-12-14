@@ -1,4 +1,4 @@
-package com.psh.no5;
+package n4948_베르트랑공준;
 
 import java.io.*;
 

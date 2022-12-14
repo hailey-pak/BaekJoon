@@ -1,4 +1,4 @@
-package com.psh.no2;
+package n2581_소수;
 
 import java.io.*;
 

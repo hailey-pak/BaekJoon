@@ -1,4 +1,4 @@
-package com.psh.no08;
+package n5622_다이얼;
 
 import java.io.BufferedReader;
 import java.io.IOException;

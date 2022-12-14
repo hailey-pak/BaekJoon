@@ -1,8 +1,8 @@
-package com.psh.no08;
+package n5622_다이얼;
 
 import java.io.IOException;
 
-public class Other {
+public class Main2 {
     public static void main(String[] args) throws IOException {
         int n, s = 0;
         while ( (n = System.in.read() - 59) > -1)

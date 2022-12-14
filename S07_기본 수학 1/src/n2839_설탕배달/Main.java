@@ -1,4 +1,4 @@
-package com.psh.no;
+package n2839_설탕배달;
 
 import java.util.Scanner;
 

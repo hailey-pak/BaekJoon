@@ -1,4 +1,4 @@
-package com.psh.no09;
+package n2941_크로아티아알파벳;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,8 +1,8 @@
-package com.psh.no3;
+package n11653_소인수분해;
 
 import java.io.*;
 
-public class Main2 {
+public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine()), i = 2;

@@ -1,4 +1,4 @@
-package com.psh.no04;
+package n2675_문자열반복;
 
 import java.io.*;
 

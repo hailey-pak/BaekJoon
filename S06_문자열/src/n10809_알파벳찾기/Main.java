@@ -1,4 +1,4 @@
-package com.psh.no03;
+package n10809_알파벳찾기;
 
 import java.util.Scanner;
 

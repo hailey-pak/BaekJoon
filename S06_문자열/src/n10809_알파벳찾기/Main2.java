@@ -1,8 +1,8 @@
-package com.psh.no03;
+package n10809_알파벳찾기;
 
 import java.util.Scanner;
 
-public class Other {
+public class Main2 {
     public static void main(String[] args) {
         String S = new Scanner(System.in).next();
         int i = 97;

@@ -1,4 +1,4 @@
-package com.psh.no4;
+package n1929_소수구하기;
 
 import java.io.*;
 

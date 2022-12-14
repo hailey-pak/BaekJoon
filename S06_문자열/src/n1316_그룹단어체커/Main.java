@@ -1,4 +1,4 @@
-package com.psh.no10;
+package n1316_그룹단어체커;
 
 import java.io.BufferedReader;
 import java.io.IOException;

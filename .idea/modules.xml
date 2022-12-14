@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/01_입출력과 사칙연산/01_입출력과 사칙연산.iml" filepath="$PROJECT_DIR$/01_입출력과 사칙연산/01_입출력과 사칙연산.iml" />
-      <module fileurl="file://$PROJECT_DIR$/02_조건문/02_조건문.iml" filepath="$PROJECT_DIR$/02_조건문/02_조건문.iml" />
-      <module fileurl="file://$PROJECT_DIR$/03_반복문/03_반복문.iml" filepath="$PROJECT_DIR$/03_반복문/03_반복문.iml" />
-      <module fileurl="file://$PROJECT_DIR$/04_1차원배열/04_1차원배열.iml" filepath="$PROJECT_DIR$/04_1차원배열/04_1차원배열.iml" />
       <module fileurl="file://$PROJECT_DIR$/05_2차원배열/05_2차원배열.iml" filepath="$PROJECT_DIR$/05_2차원배열/05_2차원배열.iml" />
-      <module fileurl="file://$PROJECT_DIR$/05_함수/05_함수.iml" filepath="$PROJECT_DIR$/05_함수/05_함수.iml" />
-      <module fileurl="file://$PROJECT_DIR$/06_문자열/06_문자열.iml" filepath="$PROJECT_DIR$/06_문자열/06_문자열.iml" />
-      <module fileurl="file://$PROJECT_DIR$/08_기본수학1/08_기본수학1.iml" filepath="$PROJECT_DIR$/08_기본수학1/08_기본수학1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/09_기본수학2/09_기본수학2.iml" filepath="$PROJECT_DIR$/09_기본수학2/09_기본수학2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_기본수학 2/09_기본수학 2.iml" filepath="$PROJECT_DIR$/09_기본수학 2/09_기본수학 2.iml" />
       <module fileurl="file://$PROJECT_DIR$/10_정렬/10_정렬.iml" filepath="$PROJECT_DIR$/10_정렬/10_정렬.iml" />
       <module fileurl="file://$PROJECT_DIR$/11_재귀/11_재귀.iml" filepath="$PROJECT_DIR$/11_재귀/11_재귀.iml" />
       <module fileurl="file://$PROJECT_DIR$/12_브루트 포스/12_브루트 포스.iml" filepath="$PROJECT_DIR$/12_브루트 포스/12_브루트 포스.iml" />
@@ -19,6 +12,14 @@
       <module fileurl="file://$PROJECT_DIR$/15_정수론 및 조합론/15_정수론 및 조합론.iml" filepath="$PROJECT_DIR$/15_정수론 및 조합론/15_정수론 및 조합론.iml" />
       <module fileurl="file://$PROJECT_DIR$/16_백트래킹/16_백트래킹.iml" filepath="$PROJECT_DIR$/16_백트래킹/16_백트래킹.iml" />
       <module fileurl="file://$PROJECT_DIR$/20_스택/20_스택.iml" filepath="$PROJECT_DIR$/20_스택/20_스택.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S01_입출력과 사칙연산/S01_입출력과 사칙연산.iml" filepath="$PROJECT_DIR$/S01_입출력과 사칙연산/S01_입출력과 사칙연산.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S02_조건문/S02_조건문.iml" filepath="$PROJECT_DIR$/S02_조건문/S02_조건문.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S03_반복문/S03_반복문.iml" filepath="$PROJECT_DIR$/S03_반복문/S03_반복문.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S04_1차원 배열/S04_1차원 배열.iml" filepath="$PROJECT_DIR$/S04_1차원 배열/S04_1차원 배열.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S05_함수/S05_함수.iml" filepath="$PROJECT_DIR$/S05_함수/S05_함수.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S06_문자열/S06_문자열.iml" filepath="$PROJECT_DIR$/S06_문자열/S06_문자열.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S07_기본 수학 1/S07_기본 수학 1.iml" filepath="$PROJECT_DIR$/S07_기본 수학 1/S07_기본 수학 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S17_동적 계획법 1/S17_동적 계획법 1.iml" filepath="$PROJECT_DIR$/S17_동적 계획법 1/S17_동적 계획법 1.iml" />
     </modules>
   </component>
 </project>

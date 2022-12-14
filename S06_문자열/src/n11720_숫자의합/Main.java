@@ -9,7 +9,7 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         br.readLine();
 
-        int sum = 0;    
+        int sum = 0;
         for(char c : br.readLine().toCharArray()) {
            // sum += c-'0';
            sum += Character.getNumericValue(c);

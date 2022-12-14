@@ -1,4 +1,4 @@
-package com.psh.no8;
+package n10757_큰수_A_plus_B;
 
 import java.io.BufferedReader;
 import java.io.IOException;

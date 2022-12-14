@@ -1,4 +1,4 @@
-package com.psh.no01;
+package n11654_아스키코드;
 
 import java.io.IOException;
 

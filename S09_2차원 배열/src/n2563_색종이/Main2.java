@@ -1,4 +1,4 @@
-package com.psh.no3;
+package n2563_색종이;
 
 import java.io.BufferedReader;
 import java.io.IOException;

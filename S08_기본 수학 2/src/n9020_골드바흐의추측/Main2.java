@@ -1,4 +1,4 @@
-package com.psh.no6;
+package n9020_골드바흐의추측;
 
 import java.io.*;
 

@@ -1,4 +1,4 @@
-package com.psh.no11;
+package n18870_좌표압축;
 
 import java.io.*;
 import java.util.Arrays;

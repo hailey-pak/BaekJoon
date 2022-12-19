@@ -1,4 +1,4 @@
-package com.psh.no11;
+package n18870_좌표압축;
 
 import java.io.*;
 import java.util.Arrays;
@@ -7,7 +7,7 @@ import java.util.HashMap;
 /**
  *  Arryas.copyOf()를 통해 배열 복사
  */
-public class Main3 {
+public class Main2 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -20,7 +20,7 @@ public class Main3 {
             num[i] = Integer.parseInt(str[i]);
         }
 
-        int[] sort = num.clone();
+        int[] sort = Arrays.copyOf(num, num.length);
         Arrays.sort(sort);
 
         HashMap<Integer, Integer> map = new HashMap<>();

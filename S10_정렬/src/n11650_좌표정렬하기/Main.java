@@ -1,4 +1,4 @@
-package com.psh.no07;
+package n11650_좌표정렬하기;
 
 import java.io.*;
 import java.util.Arrays;

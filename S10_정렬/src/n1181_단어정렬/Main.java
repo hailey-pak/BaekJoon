@@ -1,4 +1,4 @@
-package com.psh.no09;
+package n1181_단어정렬;
 
 import java.io.*;
 import java.util.Arrays;

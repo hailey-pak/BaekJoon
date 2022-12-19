@@ -1,4 +1,4 @@
-package com.psh.no10;
+package n10814_나이순정렬;
 
 import java.io.*;
 import java.util.Arrays;

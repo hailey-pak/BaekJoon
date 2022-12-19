@@ -1,4 +1,4 @@
-package com.psh.no05;
+package n2108_통계학;
 
 import java.io.*;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package com.psh.no03;
+package n10989_수정렬하기_3;
 
 import java.io.*;
 

@@ -1,4 +1,4 @@
-package com.psh.no04;
+package n25305_커트라인;
 
 import java.io.*;
 import java.util.Arrays;

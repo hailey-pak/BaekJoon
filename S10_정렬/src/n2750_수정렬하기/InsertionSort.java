@@ -1,4 +1,4 @@
-package com.psh.no01;
+package n2750_수정렬하기;
 
 public class InsertionSort {
     /**

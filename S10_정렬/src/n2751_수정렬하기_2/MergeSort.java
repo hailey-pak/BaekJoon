@@ -1,4 +1,4 @@
-package com.psh.no02;
+package n2751_수정렬하기_2;
 
 public class MergeSort {
     private static int[] sorted;    //합치는 과정에서 정렬하여 원소를 담을 임시배열
@@ -88,8 +88,5 @@ public class MergeSort {
          * 정렬된 새 배열을 기존의 배열에 복사하여 옮겨준다.
          */
         if (right + 1 - left >= 0) System.arraycopy(sorted, left, arr, left, right + 1 - left);
-//        for (int i = left; i <= right; i++) {
-//            a[i] = sorted[i];
-//        }
     }
 }

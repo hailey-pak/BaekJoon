@@ -1,4 +1,4 @@
-package com.psh.no02;
+package n2751_수정렬하기_2;
 
 public class HeapSort2 {
     /**

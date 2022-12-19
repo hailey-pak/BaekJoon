@@ -1,7 +1,10 @@
-package com.psh.no02;
+package n2751_수정렬하기_2;
 
 import java.util.PriorityQueue;
 
+/**
+ * 코드는 간단하나 성능에서는 떨어짐
+ */
 public class HeapSort {
 
     /**

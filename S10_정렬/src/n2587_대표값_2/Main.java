@@ -1,4 +1,4 @@
-package n2587_대표값2;
+package n2587_대표값_2;
 
 import java.io.BufferedReader;
 import java.io.IOException;

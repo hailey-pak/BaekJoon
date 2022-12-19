@@ -1,21 +1,17 @@
-package com.psh.no06;
+package n1427_소트인사이드;
 
 import java.io.*;
 import java.util.Arrays;
-import java.util.Comparator;
 
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        String[] str = br.readLine().split("");
-        int[] n = Arrays.stream(str).mapToInt(Integer::parseInt).toArray();
-        Integer[] i = Arrays.stream(n).boxed().toArray(Integer[]::new);
-        Arrays.sort(i, Comparator.reverseOrder());
-
-        for (Integer in : i) {
-            bw.write(in.toString());
+        String[] s = br.readLine().split("");
+        Arrays.sort(s);
+        for (int i = s.length - 1; i >= 0; i--) {
+            bw.write(s[i]);
         }
         bw.flush();
         bw.close();

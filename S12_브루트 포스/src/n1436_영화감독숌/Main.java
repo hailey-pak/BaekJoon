@@ -1,4 +1,4 @@
-package com.psh.no5;
+package n1436_영화감독숌;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.psh.no1;
+package n10872_팩토리얼;
 
 import java.util.Scanner;
 

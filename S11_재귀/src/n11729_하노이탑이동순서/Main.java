@@ -1,4 +1,4 @@
-package com.psh.no6;
+package n11729_하노이탑이동순서;
 
 import java.util.Scanner;
 

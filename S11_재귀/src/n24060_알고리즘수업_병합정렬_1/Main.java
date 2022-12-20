@@ -1,4 +1,4 @@
-package com.psh.no4;
+package n24060_알고리즘수업_병합정렬_1;
 
 import java.io.*;
 

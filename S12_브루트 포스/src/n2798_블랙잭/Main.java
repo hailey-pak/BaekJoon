@@ -1,4 +1,4 @@
-package com.psh.no1;
+package n2798_블랙잭;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.psh.no3;
+package n7568_덩치;
 
 import java.io.*;
 

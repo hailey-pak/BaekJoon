@@ -1,4 +1,4 @@
-package com.psh.no5;
+package n2447_별찍기_10;
 
 import java.util.Scanner;
 

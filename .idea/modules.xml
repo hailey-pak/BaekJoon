@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/12_브루트 포스/12_브루트 포스.iml" filepath="$PROJECT_DIR$/12_브루트 포스/12_브루트 포스.iml" />
       <module fileurl="file://$PROJECT_DIR$/13_집합과 맵/13_집합과 맵.iml" filepath="$PROJECT_DIR$/13_집합과 맵/13_집합과 맵.iml" />
       <module fileurl="file://$PROJECT_DIR$/14_기하 1/14_기하 1.iml" filepath="$PROJECT_DIR$/14_기하 1/14_기하 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/15_정수론 및 조합론/15_정수론 및 조합론.iml" filepath="$PROJECT_DIR$/15_정수론 및 조합론/15_정수론 및 조합론.iml" />
@@ -19,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/S09_2차원 배열/S09_2차원 배열.iml" filepath="$PROJECT_DIR$/S09_2차원 배열/S09_2차원 배열.iml" />
       <module fileurl="file://$PROJECT_DIR$/S10_정렬/S10_정렬.iml" filepath="$PROJECT_DIR$/S10_정렬/S10_정렬.iml" />
       <module fileurl="file://$PROJECT_DIR$/S11_재귀/S11_재귀.iml" filepath="$PROJECT_DIR$/S11_재귀/S11_재귀.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S12_브루트 포스/S12_브루트 포스.iml" filepath="$PROJECT_DIR$/S12_브루트 포스/S12_브루트 포스.iml" />
       <module fileurl="file://$PROJECT_DIR$/S17_동적 계획법 1/S17_동적 계획법 1.iml" filepath="$PROJECT_DIR$/S17_동적 계획법 1/S17_동적 계획법 1.iml" />
     </modules>
   </component>

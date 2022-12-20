@@ -1,4 +1,4 @@
-package com.psh.no3;
+package n25501_재귀의귀재;
 
 import java.io.*;
 

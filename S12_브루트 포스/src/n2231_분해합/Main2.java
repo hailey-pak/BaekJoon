@@ -1,16 +1,16 @@
-package com.psh.no2;
+package n2231_분해합;
 
 import java.util.Scanner;
 
-public class Main {
+public class Main2 {
     public static void main(String[] args) {
-        int n = new Scanner(System.in).nextInt();
-
-        System.out.print(getCons(n));
+        String s = new Scanner(System.in).next();
+        int n = Integer.parseInt(s);
+        System.out.print(getCons(n, s.length()));
     }
 
-    private static int getCons(int n) {
-        for (int i = 1; i < n; i++) {
+    private static int getCons(int n, int len) {
+        for (int i = (n - len * 9); i < n; i++) {
             int sum = i;
 
             int k = i;

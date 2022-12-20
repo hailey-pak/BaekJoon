@@ -1,4 +1,4 @@
-package com.psh.no4;
+package n1018_체스판다시칠하기;
 
 import java.io.*;
 

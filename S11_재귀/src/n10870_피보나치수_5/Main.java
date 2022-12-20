@@ -1,4 +1,4 @@
-package com.psh.no2;
+package n10870_피보나치수_5;
 
 import java.util.Scanner;
 

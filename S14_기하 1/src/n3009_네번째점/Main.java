@@ -1,4 +1,4 @@
-package no2;
+package n3009_네번째점;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package no4;
+package n2477_참외밭;
 
 import java.io.BufferedReader;
 import java.io.IOException;

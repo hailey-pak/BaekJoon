@@ -1,4 +1,4 @@
-package no6;
+package n1269_대칭차집합;
 
 import java.io.BufferedReader;
 import java.io.IOException;

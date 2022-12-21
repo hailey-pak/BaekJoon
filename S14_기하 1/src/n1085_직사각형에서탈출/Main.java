@@ -1,4 +1,4 @@
-package no1;
+package n1085_직사각형에서탈출;
 
 import java.io.BufferedReader;
 import java.io.IOException;

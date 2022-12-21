@@ -1,4 +1,4 @@
-package com.sh.no6;
+package no6;
 
 import java.io.*;
 

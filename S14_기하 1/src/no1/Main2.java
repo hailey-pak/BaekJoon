@@ -1,4 +1,4 @@
-package com.sh.no1;
+package no1;
 
 import java.io.IOException;
 

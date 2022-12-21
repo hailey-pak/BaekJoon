@@ -1,4 +1,4 @@
-package com.sh.no8;
+package no8;
 
 import java.io.BufferedReader;
 import java.io.IOException;

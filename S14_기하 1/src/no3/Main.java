@@ -1,4 +1,4 @@
-package com.sh.no3;
+package no3;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

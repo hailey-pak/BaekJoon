@@ -1,4 +1,4 @@
-package com.sh.no5;
+package no5;
 
 import java.util.Scanner;
 

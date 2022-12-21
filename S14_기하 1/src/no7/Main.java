@@ -1,4 +1,4 @@
-package com.sh.no7;
+package no7;
 
 import java.io.*;
 

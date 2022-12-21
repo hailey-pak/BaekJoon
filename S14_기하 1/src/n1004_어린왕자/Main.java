@@ -1,4 +1,4 @@
-package no7;
+package n1004_어린왕자;
 
 import java.io.*;
 

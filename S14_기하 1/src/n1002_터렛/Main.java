@@ -1,4 +1,4 @@
-package no6;
+package n1002_터렛;
 
 import java.io.*;
 

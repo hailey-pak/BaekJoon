@@ -1,4 +1,4 @@
-package no5;
+package n3053_택시기하학;
 
 import java.util.Scanner;
 

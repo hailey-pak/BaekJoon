@@ -1,4 +1,4 @@
-package no4;
+package n10816_숫자카드_2;
 
 import java.io.*;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package no4;
+package n10816_숫자카드_2;
 
 import java.io.*;
 import java.util.HashMap;
@@ -26,11 +26,7 @@ public class Main {
         String[] find = br.readLine().split(" ");
         for (int i = 0; i < m; i++) {
             String s = find[i];
-            if (map.containsKey(s)) {
-                bw.write(map.get(s)+" ");
-            } else {
-                bw.write(0 + " ");
-            }
+            bw.write(map.getOrDefault(s, 0) + " ");
         }
         bw.flush();
         bw.close();

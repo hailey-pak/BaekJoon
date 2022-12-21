@@ -1,29 +1,35 @@
-package com.psh.no1;
+package no4;
 
 import java.io.*;
-import java.util.HashSet;
+import java.util.HashMap;
 
 public class Main {
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         int n = Integer.parseInt(br.readLine());
-        String[] s = br.readLine().split(" ");
-        HashSet<Integer> set = new HashSet<>();
+
+        HashMap<String, Integer> map = new HashMap<>();
+        String[] card = br.readLine().split(" ");
         for (int i = 0; i < n; i++) {
-            set.add(Integer.parseInt(s[i]));
+            String s = card[i];
+            if (map.containsKey(s)) {
+                int cnt = map.get(s) + 1;
+                map.put(s, cnt);
+            } else {
+                map.put(s, 1);
+            }
         }
 
         int m = Integer.parseInt(br.readLine());
-        s = br.readLine().split(" ");
+        String[] find = br.readLine().split(" ");
         for (int i = 0; i < m; i++) {
-            int k = Integer.parseInt(s[i]);
-            if (set.contains(k)) {
-                bw.write("1 " );
+            String s = find[i];
+            if (map.containsKey(s)) {
+                bw.write(map.get(s)+" ");
             } else {
-                bw.write("0 " );
+                bw.write(0 + " ");
             }
         }
         bw.flush();

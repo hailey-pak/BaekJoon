@@ -1,4 +1,4 @@
-package com.psh.no7;
+package no7;
 
 import java.io.IOException;
 import java.util.HashSet;

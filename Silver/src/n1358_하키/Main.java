@@ -1,4 +1,4 @@
-package no8;
+package n1358_하키;
 
 import java.io.BufferedReader;
 import java.io.IOException;

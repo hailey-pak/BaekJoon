@@ -1,4 +1,4 @@
-package no3;
+package n4153_직각삼각형;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

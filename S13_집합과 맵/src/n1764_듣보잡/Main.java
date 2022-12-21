@@ -1,4 +1,4 @@
-package no5;
+package n1764_듣보잡;
 
 
 import java.io.*;

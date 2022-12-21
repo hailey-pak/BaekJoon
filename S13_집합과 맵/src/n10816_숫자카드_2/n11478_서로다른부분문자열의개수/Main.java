@@ -1,4 +1,4 @@
-package n11478_서로다른부분문자열의개수;
+package n10816_숫자카드_2.n11478_서로다른부분문자열의개수;
 
 import java.io.IOException;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package no2;
+package n14425_문자열집합;
 
 import java.io.BufferedReader;
 import java.io.IOException;

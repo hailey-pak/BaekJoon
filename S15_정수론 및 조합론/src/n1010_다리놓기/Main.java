@@ -1,4 +1,4 @@
-package n5086_배수와약수.n1010_다리놓기;
+package n1010_다리놓기;
 
 import java.io.*;
 

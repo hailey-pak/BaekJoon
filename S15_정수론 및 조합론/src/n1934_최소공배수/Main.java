@@ -1,4 +1,4 @@
-package no04;
+package n1934_최소공배수;
 
 import java.io.*;
 

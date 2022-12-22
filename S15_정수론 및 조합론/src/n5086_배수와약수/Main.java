@@ -1,4 +1,4 @@
-package no01;
+package n5086_배수와약수;
 
 import java.io.*;
 

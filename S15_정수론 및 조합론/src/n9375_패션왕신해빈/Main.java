@@ -1,4 +1,4 @@
-package no10;
+package n9375_패션왕신해빈;
 
 import java.io.*;
 import java.util.HashMap;

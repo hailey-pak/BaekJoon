@@ -1,4 +1,4 @@
-package no11;
+package n1676_팩토리얼0의개수;
 
 import java.util.Scanner;
 

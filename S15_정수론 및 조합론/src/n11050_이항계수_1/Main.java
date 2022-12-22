@@ -1,4 +1,4 @@
-package no07;
+package n11050_이항계수_1;
 
 import java.io.BufferedReader;
 import java.io.IOException;

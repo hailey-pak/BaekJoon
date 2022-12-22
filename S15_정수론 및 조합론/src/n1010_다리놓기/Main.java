@@ -1,4 +1,4 @@
-package no09;
+package n1010_다리놓기;
 
 import java.io.*;
 

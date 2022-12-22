@@ -1,4 +1,4 @@
-package no06;
+package n3036_링;
 
 import java.io.*;
 

@@ -1,4 +1,4 @@
-package no03;
+package n2609_최대공약수와최소공배수;
 
 import java.io.*;
 

@@ -1,4 +1,4 @@
-package no12;
+package n2004_조합0의개수;
 
 import java.io.BufferedReader;
 import java.io.IOException;

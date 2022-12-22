@@ -1,4 +1,4 @@
-package no05;
+package n2981_검문;
 
 import java.io.BufferedReader;
 import java.io.IOException;

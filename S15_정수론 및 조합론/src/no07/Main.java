@@ -1,4 +1,4 @@
-package com.psh.no08;
+package no07;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,17 +12,14 @@ public class Main {
         int n = Integer.parseInt(str[0]);
         int k = Integer.parseInt(str[1]);
 
+        System.out.print(factorial(n) / (factorial(n-k) * factorial(k)));
+    }
 
-        int[][] arr = new int[n+1][n+1];
-
-        for(int i = 0; i < arr.length; i++) {
-            for(int j = 0; j <= i; j++) {
-                if(i == j || j == 0)
-                    arr[i][j] = 1;
-                else
-                    arr[i][j] = (arr[i-1][j-1] + arr[i-1][j]) % 10007;
-            }
+    static int factorial(int n) {
+        int ans = 1;
+        for (int i = 2; i <= n; i++) {
+            ans *= i;
         }
-        System.out.println(arr[n][k]);
+        return ans;
     }
 }

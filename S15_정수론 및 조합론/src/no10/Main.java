@@ -1,4 +1,4 @@
-package com.psh.no10;
+package no10;
 
 import java.io.*;
 import java.util.HashMap;

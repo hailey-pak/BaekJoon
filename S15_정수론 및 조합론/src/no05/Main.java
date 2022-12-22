@@ -1,4 +1,4 @@
-package com.psh.no05;
+package no05;
 
 import java.io.BufferedReader;
 import java.io.IOException;

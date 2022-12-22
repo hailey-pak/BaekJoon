@@ -1,4 +1,4 @@
-package com.psh.no11;
+package no11;
 
 import java.util.Scanner;
 

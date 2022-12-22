@@ -1,4 +1,4 @@
-package com.psh.no06;
+package no06;
 
 import java.io.*;
 

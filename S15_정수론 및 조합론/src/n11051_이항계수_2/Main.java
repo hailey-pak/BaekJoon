@@ -1,4 +1,4 @@
-package no08;
+package n11051_이항계수_2;
 
 import java.io.BufferedReader;
 import java.io.IOException;
